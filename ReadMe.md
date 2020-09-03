@@ -48,3 +48,13 @@ Running into unable to get package x, search criteria?
 Lets see how this goes -- Can't use the cloud VMs though
 
 Ref: https://www.nakivo.com/blog/creating-configuring-vms-in-windows-server-2016-hyper-v/
+
+A virtualization server is a physical computer that provides the resources to run virtual machines. 
+You can use virtual machines to run different workloads. Each virtual machine runs in an isolated execution environment, which gives you the flexibility to run different operating systems and applications on one physical computer.
+
+
+Prereq:
+Ubuntu image, or you can download during install
+etc
+1. Enable Hyper-V on the virtualization host computer
+2. sudo apt instal openssh-server after successful launch of vm
